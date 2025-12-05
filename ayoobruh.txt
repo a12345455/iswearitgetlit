@@ -1,0 +1,1395 @@
+-- filename: 
+-- version: lua51
+-- line: [0, 0] id: 0
+local r0_0 = loadstring(game:HttpGet("https://gist.githubusercontent.com/VertigoCool99/230d2b10e4d6ee171f5821bf4992f486/raw/7c2bb29ccb2c49422e3e01ca6299e61ee8f3264d/FixItUpLib.lua"))()
+local r1_0, r2_0 = loadstring(game:HttpGet("https://gist.githubusercontent.com/VertigoCool99/2bcff189f55663147f8d63cb5b2012d9/raw/0e4a50f4b1f44367c513d0f29fe28ee1f731c631/EspLibrary.lua"))()
+local r3_0 = "{\"BNV K8\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"BNV K8\",\"Price\":{\"Min\":180000,\"Max\":230000},\"Meshes\":[\"rbxassetid://123444361139413\",\"rbxassetid://72154247392943\",\"rbxassetid://104075047676154\",\"rbxassetid://91650732789855\",\"rbxassetid://84181275342788\"],\"SpawnChance\":0.05},\"Missah JTF\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Missah JTF\",\"Price\":{\"Min\":90000,\"Max\":130000},\"Meshes\":[\"rbxassetid://132102455447287\",\"rbxassetid://88179450537029\",\"rbxassetid://124552424766204\",\"rbxassetid://85155057098188\",\"rbxassetid://103437368068457\",\"rbxassetid://118676679930796\",\"rbxassetid://78156060213621\",\"rbxassetid://131463158203418\"],\"SpawnChance\":0},\"Missah Silva\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Missah Silva\",\"Price\":{\"Min\":15000,\"Max\":25000},\"Meshes\":[\"rbxassetid://11681123687\",\"rbxassetid://11681124272\",\"rbxassetid://11681125663\",\"rbxassetid://11661205510\",\"rbxassetid://11661795857\",\"rbxassetid://11661795622\",\"rbxassetid://11741897591\",\"rbxassetid://11661206703\",\"rbxassetid://11704961813\",\"rbxassetid://11681124932\",\"rbxassetid://11661202347\",\"rbxassetid://11681125458\",\"rbxassetid://11761058175\",\"rbxassetid://11661205749\",\"rbxassetid://11681128181\",\"rbxassetid://138432908968681\",\"rbxassetid://11761057929\",\"rbxassetid://11661204529\",\"rbxassetid://11681130622\",\"rbxassetid://11661200645\",\"rbxassetid://11661204837\",\"rbxassetid://11661200427\",\"rbxassetid://11681130337\",\"rbxassetid://11661204154\",\"rbxassetid://11681124582\",\"rbxassetid://11704961802\"],\"SpawnChance\":10},\"Auidy RF3\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Auidy RF3\",\"Price\":{\"Min\":40000,\"Max\":55000},\"Meshes\":[\"rbxassetid://133733719907243\",\"rbxassetid://128881514877095\",\"rbxassetid://138752514448040\",\"rbxassetid://131161701193698\",\"rbxassetid://114504872129870\",\"rbxassetid://81638116995310\",\"rbxassetid://70623794677617\",\"rbxassetid://96140005404422\",\"rbxassetid://138976048452573\",\"rbxassetid://76434081161020\",\"rbxassetid://127286786938706\",\"rbxassetid://100745862709390\",\"rbxassetid://112369564828765\"],\"SpawnChance\":0.6},\"Four Mustank 70s\":{\"ProfitMultiplier\":0.4,\"BodyName\":\"Four Mustank 70s\",\"Price\":{\"Min\":30000,\"Max\":60000},\"Meshes\":[\"rbxassetid://109788616013420\",\"rbxassetid://135786161470067\",\"rbxassetid://115142610132701\",\"rbxassetid://88188051064968\",\"rbxassetid://119159286324230\",\"rbxassetid://71375682207607\",\"rbxassetid://118358172401501\",\"rbxassetid://90486065532463\",\"rbxassetid://133937813743995\"],\"SpawnChance\":0},\"Matsu Lanca\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Matsu Lanca\",\"Price\":{\"Min\":15000,\"Max\":55000},\"Meshes\":[\"rbxassetid://140574770479069\",\"rbxassetid://102627715765399\",\"rbxassetid://94432032174406\",\"rbxassetid://77328551090217\",\"rbxassetid://85724343119321\",\"rbxassetid://129263302691265\",\"rbxassetid://93959892461442\",\"rbxassetid://135380198945332\",\"rbxassetid://131472938218828\",\"rbxassetid://133695977243918\",\"rbxassetid://126692429227602\",\"rbxassetid://87466975687169\",\"rbxassetid://107199793807474\"],\"SpawnChance\":2},\"Holde Ciwiq\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Holde Ciwiq\",\"Price\":{\"Min\":5000,\"Max\":15000},\"Meshes\":[\"rbxassetid://9573106626\",\"rbxassetid://9573098334\",\"rbxassetid://9579630185\",\"rbxassetid://9572964431\",\"rbxassetid://9572959506\",\"rbxassetid://9573091718\",\"rbxassetid://9573067636\",\"rbxassetid://9572956320\"],\"SpawnChance\":11},\"Lokswag Golo GT\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Lokswag Golo GT\",\"Price\":{\"Min\":25000,\"Max\":55000},\"Meshes\":[\"rbxassetid://116277316894612\",\"rbxassetid://119707626655604\",\"rbxassetid://78736736016277\",\"rbxassetid://110560011455066\",\"rbxassetid://77594399483216\",\"rbxassetid://102259379043672\",\"rbxassetid://95718656968202\",\"rbxassetid://136485263444747\",\"rbxassetid://104589082376941\",\"rbxassetid://108533601206512\",\"rbxassetid://95447021158367\",\"rbxassetid://103357390600716\"],\"SpawnChance\":2},\"Chule Curgete\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Chule Curgete\",\"Price\":{\"Min\":65000,\"Max\":120000},\"Meshes\":[\"rbxassetid://125689248515809\",\"rbxassetid://97325139430974\",\"rbxassetid://139915714951732\",\"rbxassetid://86351974628623\",\"rbxassetid://93645109825798\",\"rbxassetid://139174571853970\",\"rbxassetid://136509739513091\",\"rbxassetid://74441134940808\",\"rbxassetid://102594655456728\",\"rbxassetid://105652307675270\"],\"SpawnChance\":0.1},\"Sacode Oitava\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Sacode Oitava\",\"Price\":{\"Min\":8000,\"Max\":14000},\"Meshes\":[\"rbxassetid://133454454999797\",\"rbxassetid://129252056740734\",\"rbxassetid://79446715390097\",\"rbxassetid://127477210628473\",\"rbxassetid://90830102869773\",\"rbxassetid://127554646401991\",\"rbxassetid://92211321085499\",\"rbxassetid://73749612501213\",\"rbxassetid://72540445755202\",\"rbxassetid://128745585755728\",\"rbxassetid://97463654942575\",\"rbxassetid://131021767972278\",\"rbxassetid://127911242310425\",\"rbxassetid://109993790647309\"],\"SpawnChance\":20},\"Peujo 200e6\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Peujo 200e6\",\"Price\":{\"Min\":1000,\"Max\":4000},\"Meshes\":[\"rbxassetid://130597907242010\",\"rbxassetid://90210475276123\"],\"SpawnChance\":50},\"Toyoda Hellox\":{\"ProfitMultiplier\":0.4,\"BodyName\":\"Toyoda Hellox\",\"Price\":{\"Min\":28000,\"Max\":40000},\"Meshes\":[\"rbxassetid://87776616428734\",\"rbxassetid://105737384935551\",\"rbxassetid://87040602389338\",\"rbxassetid://95902395406466\",\"rbxassetid://78695499579683\",\"rbxassetid://123176174887680\"],\"SpawnChance\":7},\"BNV K3\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"BNV K3\",\"Price\":{\"Min\":9000,\"Max\":20000},\"Meshes\":[\"rbxassetid://1248837742\",\"rbxassetid://1248847438\",\"rbxassetid://1248871112\",\"rbxassetid://1248847797\",\"rbxassetid://1248844486\",\"rbxassetid://1248842414\",\"rbxassetid://1248857097\",\"rbxassetid://1248855641\",\"rbxassetid://1248852389\"],\"SpawnChance\":10},\"Fia-Te Ponto\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Fia-Te Ponto\",\"Price\":{\"Min\":700,\"Max\":3000},\"Meshes\":[\"rbxassetid://6029187929\",\"rbxassetid://6029186294\",\"rbxassetid://6029191483\",\"rbxassetid://6029184640\",\"rbxassetid://6029185476\",\"rbxassetid://6029188782\",\"rbxassetid://6029186434\",\"rbxassetid://6029186883\",\"rbxassetid://6029185322\",\"rbxassetid://6029190796\",\"rbxassetid://6029186031\"],\"SpawnChance\":50},\"Auidy V7\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Auidy V7\",\"Price\":{\"Min\":50000,\"Max\":100000},\"Meshes\":[\"rbxassetid://11185590250\",\"rbxassetid://11185593993\",\"rbxassetid://11185602142\",\"rbxassetid://11185604136\",\"rbxassetid://11185609534\",\"rbxassetid://11185595226\",\"rbxassetid://11185592056\",\"rbxassetid://11185590966\",\"rbxassetid://11185603113\",\"rbxassetid://11185591513\",\"rbxassetid://11185598826\",\"rbxassetid://11185594614\",\"rbxassetid://11185599269\",\"rbxassetid://11185606193\",\"rbxassetid://11185589867\",\"rbxassetid://11185602412\",\"rbxassetid://11185600191\",\"rbxassetid://11185596447\",\"rbxassetid://11185597411\",\"rbxassetid://11185590644\",\"rbxassetid://11185598329\",\"rbxassetid://11185595651\",\"rbxassetid://99097213712193\",\"rbxassetid://11185596915\",\"rbxassetid://11185596089\",\"rbxassetid://11185605775\",\"rbxassetid://11185597844\",\"rbxassetid://11185598569\",\"rbxassetid://11185601511\",\"rbxassetid://11185601034\",\"rbxassetid://11185692063\"],\"SpawnChance\":0.1},\"Auidy V5\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Auidy V5\",\"Price\":{\"Min\":40000,\"Max\":55000},\"Meshes\":[\"rbxassetid://97129630414723\",\"rbxassetid://81452292821493\",\"rbxassetid://95482021838580\",\"rbxassetid://89295677225750\",\"rbxassetid://121881059700128\",\"rbxassetid://120636424599526\",\"rbxassetid://134968034232016\",\"rbxassetid://137347208815851\",\"rbxassetid://81452292821493\"],\"SpawnChance\":1},\"BNV K4 G\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"BNV K4 G\",\"Price\":[],\"Meshes\":[\"rbxassetid://124151666835074\",\"rbxassetid://94979746707046\",\"rbxassetid://96196737005315\",\"rbxassetid://93480320198406\",\"rbxassetid://80875934308276\",\"rbxassetid://134625991913012\",\"rbxassetid://87623349121750\",\"rbxassetid://114569046455159\",\"rbxassetid://91009425370941\",\"rbxassetid://93429875199242\",\"rbxassetid://90382458449809\",\"rbxassetid://134281629167385\"],\"SpawnChance\":0},\"Leskus not200\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Leskus not200\",\"Price\":{\"Min\":9000,\"Max\":20000},\"Meshes\":[\"rbxassetid://75683405528203\",\"rbxassetid://118677431984141\",\"rbxassetid://77338342975089\",\"rbxassetid://137684472392935\",\"rbxassetid://87665007786378\",\"rbxassetid://95205291004165\",\"rbxassetid://140285143790958\",\"rbxassetid://113178114344386\",\"rbxassetid://138809563131635\",\"rbxassetid://118006844987381\",\"rbxassetid://138282602244810\",\"rbxassetid://100519065700931\",\"rbxassetid://94859843717761\"],\"SpawnChance\":10},\"BNV K140\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"BNV K140\",\"Price\":{\"Min\":50000,\"Max\":100000},\"Meshes\":[\"rbxassetid://71873065720623\",\"rbxassetid://73358194801121\",\"rbxassetid://76698628470632\",\"rbxassetid://90849486122250\",\"rbxassetid://105379361951762\",\"rbxassetid://120590878552892\"],\"SpawnChance\":0},\"BNV K5 e39\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"BNV K5 e39\",\"Price\":{\"Min\":20000,\"Max\":50000},\"Meshes\":[\"rbxassetid://95311686892501\",\"rbxassetid://95934666248085\",\"rbxassetid://88326307816902\",\"rbxassetid://111275912511429\",\"rbxassetid://125871109882192\",\"rbxassetid://116065532662076\",\"rbxassetid://80380438671426\",\"rbxassetid://80345112524583\",\"rbxassetid://135141696247264\",\"rbxassetid://71513362483502\",\"rbxassetid://71245122124116\",\"rbxassetid://122999804120517\",\"rbxassetid://106010920266570\"],\"SpawnChance\":3},\"Merquis Z73\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Merquis Z73\",\"Price\":{\"Min\":35000,\"Max\":65000},\"Meshes\":[\"rbxassetid://17496679961\",\"rbxassetid://17496679370\",\"rbxassetid://17496680922\",\"rbxassetid://17496671930\",\"rbxassetid://17496679371\",\"rbxassetid://17496671992\",\"rbxassetid://17496672058\",\"rbxassetid://17496682584\",\"rbxassetid://17496680920\",\"rbxassetid://17496683781\",\"rbxassetid://17496683734\",\"rbxassetid://17496672518\",\"rbxassetid://17496672162\",\"rbxassetid://17496680421\"],\"SpawnChance\":1},\"Skami Truk\":{\"ProfitMultiplier\":2,\"BodyName\":\"Skami Truk\",\"Price\":{\"Min\":120000,\"Max\":200000},\"Meshes\":[\"rbxassetid://94916225792291\",\"rbxassetid://101665967205212\",\"rbxassetid://87666463865821\",\"rbxassetid://117308840810197\",\"rbxassetid://133465985311992\"],\"SpawnChance\":0.05},\"Lokswag Golo MK5\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Lokswag Golo MK5\",\"Price\":{\"Min\":17000,\"Max\":25000},\"Meshes\":[\"rbxassetid://94762315815070\",\"rbxassetid://129155010341390\",\"rbxassetid://80854106813739\",\"rbxassetid://80816077887262\",\"rbxassetid://89074571172175\",\"rbxassetid://79902151973939\",\"rbxassetid://84287347643484\"],\"SpawnChance\":7},\"BNV K5 e60\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"BNV K5 e60\",\"Price\":{\"Min\":60000,\"Max\":90000},\"Meshes\":[\"rbxassetid://86037632036474\",\"rbxassetid://116467639002913\",\"rbxassetid://111576463312889\",\"rbxassetid://94512370020960\",\"rbxassetid://130974017846300\",\"rbxassetid://119740239586926\",\"rbxassetid://140268274601372\",\"rbxassetid://77137608342068\",\"rbxassetid://101095042203260\",\"rbxassetid://93372122529328\",\"rbxassetid://76266306335688\"],\"SpawnChance\":0.5},\"Auidy RF3 Sedan\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Auidy RF3 Sedan\",\"Price\":{\"Min\":70000,\"Max\":90000},\"Meshes\":[\"rbxassetid://120184750920893\",\"rbxassetid://72138290178230\",\"rbxassetid://105698311330357\",\"rbxassetid://94806825943633\",\"rbxassetid://133682890470184\",\"rbxassetid://126062950834220\",\"rbxassetid://78439871400122\"],\"SpawnChance\":0.3},\"Lokswag Golo\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Lokswag Golo\",\"Price\":{\"Min\":4000,\"Max\":8000},\"Meshes\":[\"rbxassetid://1115196543\",\"rbxassetid://1126567944\",\"rbxassetid://1115175802\",\"rbxassetid://1126505474\",\"rbxassetid://1115268581\",\"rbxassetid://1115188246\",\"rbxassetid://1115193537\",\"rbxassetid://1115179021\",\"rbxassetid://1115197067\",\"rbxassetid://1115264764\",\"rbxassetid://1115162686\",\"rbxassetid://1116890173\",\"rbxassetid://1116532422\",\"rbxassetid://1116891169\",\"rbxassetid://1116525801\",\"rbxassetid://1127768985\",\"rbxassetid://1127778923\",\"rbxassetid://1127727735\",\"rbxassetid://1127810865\",\"rbxassetid://1115210670\"],\"SpawnChance\":30},\"Lokswag Golo MK4\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Lokswag Golo MK4\",\"Price\":{\"Min\":12000,\"Max\":17000},\"Meshes\":[\"rbxassetid://132009749265746\",\"rbxassetid://89043039053467\",\"rbxassetid://126937837680876\",\"rbxassetid://72169600469859\"],\"SpawnChance\":15},\"Auidy F8\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Auidy F8\",\"Price\":{\"Min\":100000,\"Max\":200000},\"Meshes\":[\"rbxassetid://110073538050833\",\"rbxassetid://116246066500409\",\"rbxassetid://136427263801311\",\"rbxassetid://120761303232289\",\"rbxassetid://112997368005779\",\"rbxassetid://134675412694955\"],\"SpawnChance\":0},\"Holde Inteiro\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Holde Inteiro\",\"Price\":{\"Min\":9000,\"Max\":30000},\"Meshes\":[\"rbxassetid://123300005465288\",\"rbxassetid://18578562082\",\"rbxassetid://18578562104\",\"rbxassetid://18578562441\",\"rbxassetid://18578562390\",\"rbxassetid://18578562129\",\"rbxassetid://18578562510\",\"rbxassetid://18578562469\",\"rbxassetid://18578562299\"],\"SpawnChance\":7},\"Fia-Te Double\":{\"ProfitMultiplier\":3,\"BodyName\":\"Fia-Te Double\",\"Price\":{\"Min\":15000,\"Max\":20000},\"Meshes\":[\"rbxassetid://1762342343\",\"rbxassetid://1762318441\",\"rbxassetid://1762336680\",\"rbxassetid://1762269414\",\"rbxassetid://1762156765\",\"rbxassetid://1762235916\"],\"SpawnChance\":0},\"Ontel Costa\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Ontel Costa\",\"Price\":{\"Min\":700,\"Max\":3000},\"Meshes\":[\"rbxassetid://6250010455\",\"rbxassetid://6249985330\",\"rbxassetid://6250032607\",\"rbxassetid://6247114761\",\"rbxassetid://6249976527\"],\"SpawnChance\":30},\"Merquis C203\":{\"ProfitMultiplier\":0.25,\"BodyName\":\"Merquis C203\",\"Price\":{\"Min\":9000,\"Max\":22000},\"Meshes\":[\"rbxassetid://76790331171298\",\"rbxassetid://97917119225494\",\"rbxassetid://133970585526948\",\"rbxassetid://109346768977415\",\"rbxassetid://134036939104883\",\"rbxassetid://98413624067452\",\"rbxassetid://127141943605799\",\"rbxassetid://97550525984328\",\"rbxassetid://122486272716044\"],\"SpawnChance\":7},\"Auidy RF6\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Auidy RF6\",\"Price\":[],\"Meshes\":[\"rbxassetid://17750553999\",\"rbxassetid://17750553805\",\"rbxassetid://17750543557\",\"rbxassetid://17750550807\",\"rbxassetid://17750541855\",\"rbxassetid://17750573434\",\"rbxassetid://17750553410\",\"rbxassetid://17750545109\",\"rbxassetid://17750569735\"],\"SpawnChance\":0},\"Merquis SLX\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Merquis SLX\",\"Price\":{\"Min\":180000,\"Max\":280000},\"Meshes\":[\"rbxassetid://134050644142164\",\"rbxassetid://120343476513530\",\"rbxassetid://125026109462008\",\"rbxassetid://102116860088124\",\"rbxassetid://111001443006028\",\"rbxassetid://76200222183573\",\"rbxassetid://103870852164523\",\"rbxassetid://130130975785724\",\"rbxassetid://88849081918324\",\"rbxassetid://111308750314987\",\"rbxassetid://77536639565516\"],\"SpawnChance\":0.05},\"Auidy V4\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Auidy V4\",\"Price\":{\"Min\":12000,\"Max\":18000},\"Meshes\":[\"rbxassetid://11648998895\",\"rbxassetid://11648999467\",\"rbxassetid://11649004413\",\"rbxassetid://11649002921\",\"rbxassetid://121524847325659\",\"rbxassetid://11649001837\",\"rbxassetid://11649008843\",\"rbxassetid://11649005319\",\"rbxassetid://11649008714\",\"rbxassetid://11649000384\"],\"SpawnChance\":15},\"Siath Lion\":{\"ProfitMultiplier\":0.5,\"BodyName\":\"Siath Lion\",\"Price\":{\"Min\":1500,\"Max\":4000},\"Meshes\":[\"rbxassetid://9337779225\",\"rbxassetid://9337778691\",\"rbxassetid://9337777500\",\"rbxassetid://9337766967\",\"rbxassetid://9337771539\",\"rbxassetid://9337769477\",\"rbxassetid://9337771890\",\"rbxassetid://9337770541\",\"rbxassetid://9337771015\",\"rbxassetid://9337766591\"],\"SpawnChance\":50},\"Missah 750x\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Missah 750x\",\"Price\":{\"Min\":30000,\"Max\":55000},\"Meshes\":[\"rbxassetid://1363086730\",\"rbxassetid://1363114968\",\"rbxassetid://1363118809\",\"rbxassetid://1363011161\",\"rbxassetid://1363123243\",\"rbxassetid://1363095909\",\"rbxassetid://1363083674\",\"rbxassetid://1363121153\",\"rbxassetid://1363077657\",\"rbxassetid://1363029018\",\"rbxassetid://11815906535\",\"rbxassetid://1363111825\"],\"SpawnChance\":1},\"Four Traffic\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Four Traffic\",\"Price\":{\"Min\":15000,\"Max\":30000},\"Meshes\":[\"rbxassetid://116603782287315\",\"rbxassetid://97339709446239\",\"rbxassetid://105979235510743\",\"rbxassetid://116635276291482\",\"rbxassetid://92115773260169\",\"rbxassetid://129504768006742\",\"rbxassetid://124323442939597\",\"rbxassetid://135921231008614\",\"rbxassetid://140444148372557\",\"rbxassetid://137548976411901\",\"rbxassetid://93039823106729\",\"rbxassetid://84430171046594\",\"rbxassetid://132878939887436\"],\"SpawnChance\":6},\"Merquis ZLA 45\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Merquis ZLA 45\",\"Price\":{\"Min\":50000,\"Max\":70000},\"Meshes\":[\"rbxassetid://111175820855797\",\"rbxassetid://97534432741896\",\"rbxassetid://97106522660731\",\"rbxassetid://88168726227480\",\"rbxassetid://133340247441931\",\"rbxassetid://109024704378579\",\"rbxassetid://112660713192764\",\"rbxassetid://97228022942836\",\"rbxassetid://112677619018491\",\"rbxassetid://70537070086025\",\"rbxassetid://77449207943282\",\"rbxassetid://79309768185472\"],\"SpawnChance\":0},\"BNV K3 e92\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"BNV K3 e92\",\"Price\":{\"Min\":45000,\"Max\":60000},\"Meshes\":[\"rbxassetid://76562870049311\",\"rbxassetid://103628581876873\",\"rbxassetid://139224136820319\",\"rbxassetid://14091796546\"],\"SpawnChance\":1},\"Toyoda Supwa\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"Toyoda Supwa\",\"Price\":{\"Min\":70000,\"Max\":120000},\"Meshes\":[\"rbxassetid://109626085950821\",\"rbxassetid://98914027803456\",\"rbxassetid://116847798880478\",\"rbxassetid://118101296746088\",\"rbxassetid://119256003553714\",\"rbxassetid://111790040264023\",\"rbxassetid://119140323671950\",\"rbxassetid://134645365300661\",\"rbxassetid://84857069583305\",\"rbxassetid://70534932163564\",\"rbxassetid://101978323488227\",\"rbxassetid://138244896959887\",\"rbxassetid://125009250761444\",\"rbxassetid://106276229996032\"],\"SpawnChance\":0},\"Lokswag Passar\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Lokswag Passar\",\"Price\":{\"Min\":8000,\"Max\":14000},\"Meshes\":[\"rbxassetid://118641454331467\",\"rbxassetid://100486625251004\",\"rbxassetid://82409481609000\",\"rbxassetid://131104363262176\",\"rbxassetid://126368809511076\",\"rbxassetid://71252826477287\",\"rbxassetid://97043515833235\",\"rbxassetid://82509861807877\",\"rbxassetid://84226021046038\",\"rbxassetid://109430826339734\",\"rbxassetid://79527974084929\",\"rbxassetid://130461466236207\",\"rbxassetid://96572824795297\"],\"SpawnChance\":20},\"Renas Kapturado\":{\"ProfitMultiplier\":0.3,\"BodyName\":\"Renas Kapturado\",\"Price\":{\"Min\":5000,\"Max\":11000},\"Meshes\":[\"rbxassetid://5420352981\",\"rbxassetid://5420359265\",\"rbxassetid://5420420684\",\"rbxassetid://5420358303\",\"rbxassetid://111790656504164\",\"rbxassetid://92332700755201\"],\"SpawnChance\":30},\"DOGO Desafio\":{\"ProfitMultiplier\":0.2,\"BodyName\":\"DOGO Desafio\",\"Price\":{\"Min\":450000,\"Max\":600000},\"Meshes\":[\"rbxassetid://114434584768262\",\"rbxassetid://104870416527799\",\"rbxassetid://117769630805986\",\"rbxassetid://110750313826175\",\"rbxassetid://135352425223734\",\"rbxassetid://111543944489062\",\"rbxassetid://107391716215189\",\"rbxassetid://137887585822735\",\"rbxassetid://123768873851641\",\"rbxassetid://109318615804937\"],\"SpawnChance\":0}}"
+local r4_0 = game:GetService("Players")
+local r5_0 = game:GetService("TweenService")
+local r6_0 = game:GetService("ReplicatedStorage")
+local r7_0 = game:GetService("HttpService")
+local r8_0 = game:GetService("VirtualUser")
+local r9_0 = r4_0.LocalPlayer
+local r10_0 = workspace.CurrentCamera
+local r11_0 = r9_0.Character
+local r12_0 = workspace.Map
+local r13_0 = workspace.Vehicles
+local r14_0 = workspace.MoveableParts
+local r15_0 = workspace.PartsStore.SpareParts.Parts
+local r16_0 = workspace.Garages
+local r17_0 = r9_0.PlayerData.Status.Money
+local r18_0 = r9_0.PlayerData.Status.KMs
+local r19_0 = nil
+local r20_0 = r9_0.PlayerData.Status.Money.Value
+local r21_0 = false
+local r22_0 = tick()
+local r23_0 = true
+local r24_0 = false
+local r25_0 = {
+  FarmingEnabled = false,
+  StoreRareCars = false,
+  RareCarThreshold = 1,
+  TeleportMethod = "Safe",
+  KmFarm = false,
+  CarEsp = false,
+  Sniper = false,
+  AutoAuction = false,
+  SniperCarThreshold = 50,
+  MinCarPrice = 0,
+  Timeout = 30,
+  KmFarmSpeed = 700,
+  Version = 1.6,
+}
+while true do
+  task.wait()
+  if game:IsLoaded() then
+    local r26_0 = game.Players.LocalPlayer
+    if r26_0 then
+      r26_0 = game.Players.LocalPlayer.Character
+      if r26_0 then
+        r26_0 = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+        if r26_0 then
+          break
+        end
+      end
+    end
+  end
+end
+r9_0.CharacterAdded:Connect(function(r0_35)
+  -- line: [0, 0] id: 35
+  r11_0 = r0_35
+end)
+if getgenv().Settings then
+  for r29_0, r30_0 in pairs(getgenv().Settings) do
+    r25_0[r29_0] = r30_0
+  end
+end
+workspace:SetAttribute("LogLevelClient", "PizzaIsAnEDater")
+r19_0 = r16_0:FindFirstChild(r9_0.PlayerData.GarageModel.Value)
+r14_0.ChildAdded:Connect(function(r0_29)
+  -- line: [0, 0] id: 29
+  if r0_29:GetAttribute("Owner") and r0_29:GetAttribute("Owner") == r9_0.Name and r0_29:FindFirstChildOfClass("Part") then
+    local r1_29 = Instance.new("BodyVelocity", r0_29:FindFirstChildOfClass("Part"))
+    r1_29.Velocity = Vector3.new(0, 0, 0)
+    r1_29.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+    r1_29.P = math.huge
+  end
+end)
+local r26_0 = r7_0:JSONDecode(r3_0)
+local r27_0 = {}
+local r28_0 = {
+  "BrakeLights",
+  "DRL",
+  "Headlights",
+  "ReverseLights"
+}
+if isfile("FixItUpCarStats.txt") then
+  local r29_0 = r7_0:JSONDecode(readfile("FixItUpCarStats.txt"))
+  if r29_0["Sacode Oitava"].Meshes == nil then
+    delfile("FixItUpCarStats.txt")
+    writefile("FixItUpCarStats.txt", r7_0:JSONEncode(r26_0))
+  end
+  for r33_0, r34_0 in pairs(r29_0) do
+    r26_0[r33_0] = r34_0
+  end
+else
+  writefile("FixItUpCarStats.txt", r7_0:JSONEncode(r26_0))
+end
+r13_0.ChildAdded:Connect(function(r0_37)
+  -- line: [0, 0] id: 37
+  if r0_37:GetAttribute("Owner") and r0_37:GetAttribute("Model") and not r26_0[r0_37:GetAttribute("Model")] then
+    local r1_37 = {}
+    if r0_37:FindFirstChild("Body") then
+      for r5_37, r6_37 in pairs(r0_37:GetDescendants()) do
+        if r6_37.Name == "Paint" and r6_37:IsA("MeshPart") then
+          table.insert(r1_37, r6_37.MeshId)
+        end
+      end
+    end
+    r26_0[r0_37:GetAttribute("Model")] = {
+      Price = {
+        Min = r0_37:GetAttribute("Price").Min,
+        Max = r0_37:GetAttribute("Price").Max,
+      },
+      SpawnChance = r0_37:GetAttribute("SpawnChance"),
+      ProfitMultiplier = r0_37:GetAttribute("ProfitMultiplier"),
+      BodyName = r0_37:GetAttribute("Model"),
+      Meshes = r1_37,
+    }
+    writefile("FixItUpCarStats.txt", r7_0:JSONEncode(r26_0))
+  end
+  if r0_37:GetAttribute("Junkyard") == true then
+    task.delay(1, function()
+      -- line: [0, 0] id: 38
+      for r3_38, r4_38 in pairs(r0_37:GetDescendants()) do
+        if r4_38.Name == "Paint" and r4_38:IsA("MeshPart") then
+          for r8_38, r9_38 in pairs(r26_0) do
+            for r13_38, r14_38 in pairs(r9_38.Meshes) do
+              if r14_38 == r4_38.MeshId then
+                r4_38.Parent.Parent.Name = r9_38.BodyName
+                r0_37:SetAttribute("ModelName", r8_38)
+                r0_37:SetAttribute("SpawnChance", r9_38.SpawnChance)
+                r0_37:SetAttribute("ProfitMultiplier", r9_38.ProfitMultiplier)
+                r0_37:SetAttribute("Price", NumberRange.new(r9_38.Price.Min, r9_38.Price.Max))
+                r2_0:CreateItemEsp(r0_37, {
+                  Name = r9_38.BodyName .. " | " .. r9_38.SpawnChance .. "%",
+                  Type = "Car",
+                })
+              end
+            end
+          end
+        end
+      end
+    end)
+  end
+end)
+for r32_0, r33_0 in pairs(r13_0:GetChildren()) do
+  if not r33_0:GetAttribute("Owner") and r33_0:FindFirstChild("Body") then
+    for r37_0, r38_0 in pairs(r33_0:GetDescendants()) do
+      if r38_0.Name == "Paint" and r38_0.Parent and r38_0:IsA("MeshPart") and r38_0.Parent.Parent.Name ~= "Hood" then
+        for r42_0, r43_0 in pairs(r26_0) do
+          for r47_0, r48_0 in pairs(r43_0.Meshes) do
+            if r48_0 == r38_0.MeshId then
+              r38_0.Parent.Parent.Name = r43_0.BodyName
+              for r52_0, r53_0 in pairs(r26_0) do
+                if r38_0.Parent.Parent.Name == r53_0.BodyName then
+                  r33_0:SetAttribute("ModelName", r52_0)
+                  r33_0:SetAttribute("SpawnChance", r53_0.SpawnChance)
+                  r33_0:SetAttribute("ProfitMultiplier", r53_0.ProfitMultiplier)
+                  r33_0:SetAttribute("Price", NumberRange.new(r53_0.Price.Min, r53_0.Price.Max))
+                  r2_0:CreateItemEsp(r33_0, {
+                    Name = r53_0.BodyName .. " | " .. r53_0.SpawnChance .. "%",
+                    Type = "Car",
+                  })
+                  break
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
+local r29_0 = r0_0:CreateWatermark({
+  Text = "Fix It Up | Dev | VertigoCool",
+})
+r29_0:SetWatermarkVisible(true)
+local r30_0 = r0_0:CreateWindow({
+  Name = "Fix It Up | Version " .. r25_0.Version,
+})
+local r31_0 = r30_0:CreateTab({
+  Name = "Farming",
+})
+local r32_0 = r30_0:CreateTab({
+  Name = "Misc",
+})
+local r33_0 = r30_0:CreateTab({
+  Name = "Settings",
+})
+r31_0:CreateToggle({
+  Enabled = false,
+  Name = "Car Farm",
+  Flag = "AutoFarmEnabled",
+  Default = r25_0.FarmingEnabled,
+  Callback = function(r0_22)
+    -- line: [0, 0] id: 22
+    r25_0.FarmingEnabled = r0_22
+  end,
+})
+r31_0:CreateToggle({
+  Enabled = false,
+  Name = "Km Farm",
+  Flag = "AutoFarmKMEnabled",
+  Default = r25_0.KmFarm,
+  Callback = function(r0_11)
+    -- line: [0, 0] id: 11
+    r25_0.KmFarm = r0_11
+    if r23_0 == false then
+      if r0_11 == true then
+        r30_0:CreateStatus("Started Km Farm")
+      else
+        r30_0:CreateStatus("Finished Km Farm")
+      end
+    end
+  end,
+})
+r31_0:CreateToggle({
+  Enabled = false,
+  Name = "Store Rare Cars",
+  Flag = "StoreRareCars",
+  Default = r25_0.StoreRareCars,
+  Callback = function(r0_3)
+    -- line: [0, 0] id: 3
+    r25_0.StoreRareCars = r0_3
+  end,
+})
+r31_0:CreateSlider({
+  Name = "Rare Car Threshold",
+  Prefix = "%",
+  Flag = "RareCarThreshold",
+  Default = r25_0.RareCarThreshold,
+  Min = 0,
+  Max = 100,
+  Precision = 2,
+  Callback = function(r0_36)
+    -- line: [0, 0] id: 36
+    r25_0.RareCarThreshold = r0_36
+  end,
+})
+r32_0:CreateToggle({
+  Enabled = false,
+  Name = "Sniper",
+  Flag = "Sniper",
+  Default = r25_0.Sniper,
+  Callback = function(r0_34)
+    -- line: [0, 0] id: 34
+    r25_0.Sniper = r0_34
+  end,
+})
+r32_0:CreateSlider({
+  Name = "Snipe Car Percent",
+  Prefix = "%",
+  Flag = "SniperCarThreshold",
+  Default = r25_0.SniperCarThreshold,
+  Min = 0,
+  Max = 100,
+  Precision = 2,
+  Callback = function(r0_31)
+    -- line: [0, 0] id: 31
+    r25_0.SniperCarThreshold = r0_31
+  end,
+})
+r32_0:CreateToggle({
+  Enabled = false,
+  Name = "Auto Auction",
+  Flag = "AutoAuction",
+  Default = r25_0.AutoAuction,
+  Callback = function(r0_39)
+    -- line: [0, 0] id: 39
+    r25_0.AutoAuction = r0_39
+  end,
+})
+r32_0:CreateToggle({
+  Enabled = false,
+  Name = "Car Esp",
+  Flag = "CarEsp",
+  Default = r25_0.CarEsp,
+  Callback = function(r0_20)
+    -- line: [0, 0] id: 20
+    r25_0.CarEsp = r0_20
+    r1_0.ItemNames.Enabled = r0_20
+    r1_0.ItemDistances.Enabled = r0_20
+  end,
+})
+r33_0:CreateDropdown({
+  Name = "Teleport Method",
+  Flag = "TeleportMethod",
+  Options = {
+    "Blatant",
+    "Safe"
+  },
+  Default = r25_0.TeleportMethod,
+  Callback = function(r0_24)
+    -- line: [0, 0] id: 24
+    r25_0.TeleportMethod = r0_24
+  end,
+})
+r33_0:CreateSlider({
+  Name = "Min Car Price",
+  Prefix = "k",
+  Flag = "MinCarPrice",
+  Default = r25_0.MinCarPrice,
+  Min = 0,
+  Max = 50,
+  Precision = 0,
+  Callback = function(r0_23)
+    -- line: [0, 0] id: 23
+    r25_0.MinCarPrice = r0_23
+  end,
+})
+r33_0:CreateButton({
+  Name = "Unload",
+  Callback = function()
+    -- line: [0, 0] id: 30
+    r25_0.FarmingEnabled = false
+    r25_0.KmFarm = false
+    r25_0.CarEsp = false
+    r1_0.ItemNames.Enabled = false
+    r1_0.ItemDistances.Enabled = false
+    r25_0.Sniper = false
+    r25_0.AutoAuction = false
+    r30_0:ToggleMenu(false)
+  end,
+})
+while true do
+  task.wait()
+  if r9_0 and r11_0 then
+    local r34_0 = r11_0:FindFirstChild("Humanoid")
+    if r34_0 then
+      r34_0 = game:IsLoaded()
+      if r34_0 then
+        break
+      end
+    end
+  end
+end
+function GetMyCar(r0_33)
+  -- line: [0, 0] id: 33
+  for r4_33, r5_33 in pairs(r13_0:GetChildren()) do
+    if r0_33 == true then
+      if r5_33:GetAttribute("Owner") == r9_0.Name and r5_33:GetAttribute("SpawnChance") <= r25_0.SniperCarThreshold then
+        return r5_33
+        if r5_33:GetAttribute("Owner") == r9_0.Name then
+          return r5_33
+        end
+      end
+    else
+      goto label_23	-- block#5 is visited secondly
+    end
+  end
+  return nil
+end
+function TeleportPlayer(r0_9)
+  -- line: [0, 0] id: 9
+  assert(r0_9, "No Destination [TeleportPlayer]")
+  if not r11_0 then
+    return 
+  end
+  if r11_0:FindFirstChild("Humanoid") and r11_0.Humanoid.Sit == true then
+    r11_0.Humanoid.Sit = false
+  end
+  if r25_0.TeleportMethod == "Blatant" then
+    if r11_0:FindFirstChild("BodyVelocity") then
+      r11_0:FindFirstChild("BodyVelocity"):Destroy()
+    end
+    r11_0:PivotTo(r0_9 + Vector3.new(0, 2, 0))
+    task.wait()
+    if r9_0.GameplayPaused ~= false then
+      ::label_55::
+      if not r11_0:FindFirstChild("BodyVelocity") then
+        local r1_9 = Instance.new("BodyVelocity", r11_0.HumanoidRootPart)
+        r1_9.Velocity = Vector3.new(0, 0, 0)
+        r1_9.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+        r1_9.P = math.huge
+      end
+      r11_0:PivotTo(r0_9 - Vector3.new(0, 20, 0))
+      repeat
+        task.wait()
+      until r9_0.GameplayPaused == false
+    end
+  else
+    goto label_55	-- block#9 is visited secondly
+  end
+end
+function TeleportCar(r0_27, r1_27)
+  -- line: [0, 0] id: 27
+  assert(r0_27, "No Car Model [TeleportCar]")
+  assert(r1_27, "No Destination [TeleportCar]")
+  if type(r0_27) == "userdata" and not r0_27:IsA("Model") then
+    return 
+  end
+  if not r11_0:FindFirstChildOfClass("Humanoid") then
+    repeat
+      task.wait()
+    until r11_0:FindFirstChildOfClass("Humanoid")
+  end
+  if not r0_27:FindFirstChildOfClass("VehicleSeat") then
+    return 
+  end
+  if r0_27:FindFirstChild("Body") and r0_27.Body:FindFirstChild("Seats") and 0 < #r0_27.Body.Seats:GetChildren() then
+    for r5_27, r6_27 in pairs(r0_27.Body.Seats:GetChildren()) do
+      r6_27:Destroy()
+    end
+  end
+  if r11_0.Humanoid.Sit == true then
+    r0_27:FindFirstChildOfClass("VehicleSeat"):Sit(nil)
+    TeleportPlayer(r0_27.Body.Engine:GetPivot() + Vector3.new(8, 0, 8))
+    for r5_27, r6_27 in pairs(r11_0.HumanoidRootPart:GetChildren()) do
+      if r6_27:IsA("BodyVelocity") then
+        r6_27:Destroy()
+      end
+    end
+  end
+  r0_27.PrimaryPart = r0_27:FindFirstChildOfClass("VehicleSeat")
+  r0_27:FindFirstChildOfClass("VehicleSeat"):Sit(r11_0.Humanoid)
+  repeat
+    task.wait()
+    r0_27:FindFirstChildOfClass("VehicleSeat"):Sit(r11_0.Humanoid)
+  until r11_0.Humanoid.Sit == true
+  task.wait(0.3)
+  r0_27:SetPrimaryPartCFrame(r1_27)
+  repeat
+    task.wait(0.2)
+    r0_27:SetPrimaryPartCFrame(r1_27)
+  until (r0_27:GetPivot().p - r1_27.p).Magnitude < 50
+  local r2_27 = Instance.new("BodyVelocity", r0_27:FindFirstChild("Body"):FindFirstChild("Engine"))
+  r2_27.Velocity = Vector3.new(0, 0, 0)
+  r2_27.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+  r2_27.P = math.huge
+  r0_27:FindFirstChildOfClass("VehicleSeat"):Sit(nil)
+  repeat
+    task.wait()
+    r0_27:FindFirstChildOfClass("VehicleSeat"):Sit(nil)
+  until r11_0.Humanoid.Sit == false
+  TeleportPlayer(r0_27.Body.Engine:GetPivot() + Vector3.new(8, 0, 8))
+  for r6_27, r7_27 in pairs(r11_0.HumanoidRootPart:GetChildren()) do
+    if r7_27:IsA("BodyVelocity") then
+      r7_27:Destroy()
+    end
+  end
+  repeat
+    task.wait()
+  until r9_0.GameplayPaused == false
+  task.delay(0.5, function()
+    -- line: [0, 0] id: 28
+    r2_27:Destroy()
+  end)
+end
+function GetRepairShop()
+  -- line: [0, 0] id: 25
+  local r0_25 = {}
+  local r1_25 = {}
+  local r2_25 = {}
+  for r6_25, r7_25 in pairs(r12_0:GetChildren()) do
+    if r7_25.Name == "PitStop Repair" then
+      table.insert(r0_25, r7_25)
+    end
+  end
+  local r3_25 = r0_25[Random.new(tick()):NextInteger(1, #r0_25)]
+  for r7_25, r8_25 in pairs(r3_25:GetChildren()) do
+    if r8_25.Name == "Lift" then
+      table.insert(r1_25, r8_25)
+    end
+  end
+  for r7_25, r8_25 in pairs(r3_25:GetChildren()) do
+    if r8_25.Name == "BatteryCharger" or r8_25.Name == "GrindingMachine" or r8_25.Name == "PartsWasher" then
+      table.insert(r2_25, r8_25)
+    end
+  end
+  return r3_25, r1_25[Random.new(tick()):NextInteger(1, #r1_25)], r2_25
+end
+function GetOwnedParts()
+  -- line: [0, 0] id: 32
+  local r0_32 = {}
+  for r4_32, r5_32 in pairs(r14_0:GetChildren()) do
+    if r5_32:GetAttribute("Owner") == r9_0.Name then
+      table.insert(r0_32, r5_32)
+    end
+  end
+  return r0_32
+end
+function ConfirmUi()
+  -- line: [0, 0] id: 4
+  while true do
+    task.wait(0.15)
+    if r9_0.PlayerGui:FindFirstChild("HUD") then
+      local r0_4 = r9_0.PlayerGui.HUD:FindFirstChild("Frames")
+      if r0_4 then
+        r0_4 = r9_0.PlayerGui.HUD.Frames:FindFirstChild("Confirmation")
+        if r0_4 then
+          r0_4 = r9_0.PlayerGui.HUD.Frames.Confirmation.Visible
+          if r0_4 == true then
+            break
+          end
+        end
+      end
+    end
+  end
+  firesignal(r9_0.PlayerGui.HUD.Frames.Confirmation.Confirm.Activated)
+  while true do
+    task.wait(0.15)
+    firesignal(r9_0.PlayerGui.HUD.Frames.Confirmation.Confirm.Activated)
+    if r9_0.PlayerGui:FindFirstChild("HUD") then
+      local r0_4 = r9_0.PlayerGui.HUD:FindFirstChild("Frames")
+      if r0_4 then
+        r0_4 = r9_0.PlayerGui.HUD.Frames:FindFirstChild("Confirmation")
+        if r0_4 then
+          r0_4 = r9_0.PlayerGui.HUD.Frames.Confirmation.Visible
+          if r0_4 == false then
+            break
+          end
+        end
+      end
+    end
+  end
+  task.wait(0.2)
+end
+function BuyBestCar()
+  -- line: [0, 0] id: 5
+  task.wait(1)
+  if r21_0 then
+    return 
+  end
+  r21_0 = true
+  r19_0 = r16_0:FindFirstChild(r9_0.PlayerData.GarageModel.Value)
+  if r24_0 == true then
+    SellCar(GetMyCar(), true)
+  end
+  if r19_0 ~= nil and r19_0:FindFirstChild("CarPositions") and #r9_0.PlayerData.Garage:GetChildren() == #r19_0.CarPositions:GetChildren() then
+    r30_0:CreateNotification({
+      Text = "Garage Full, Please Sell A Car!",
+      Duration = 3,
+    })
+    r21_0 = false
+    return 
+  end
+  if GetMyCar() ~= nil then
+    r30_0:CreateStatus("Car Already Fount!")
+    r30_0:CreateNotification({
+      Text = "Car Already Fount!",
+      Duration = 3,
+    })
+    RepairCar(GetMyCar())
+    return 
+  end
+  r19_0 = r16_0:FindFirstChild(r9_0.PlayerData.GarageModel.Value)
+  local r0_5 = math.huge
+  local r1_5 = 0
+  local r2_5 = nil
+  r30_0:CreateStatus("Buying Best Car")
+  r30_0:CreateNotification({
+    Text = "Buying Best Car",
+    Duration = 3,
+  })
+  for r6_5, r7_5 in pairs(r13_0:GetChildren()) do
+    if r7_5:GetAttribute("SpawnChance") and not r7_5:GetAttribute("Owner") then
+      local r8_5 = r7_5:GetAttribute("Price")
+      local r9_5 = r7_5:GetAttribute("SpawnChance")
+      if r8_5 and r25_0.MinCarPrice <= r8_5.Min and r9_5 and tonumber(r8_5.Max) <= tonumber(r17_0.Value) then
+        local r10_5 = tonumber(r8_5.Max)
+        local r11_5 = tonumber(r9_5)
+        if r11_5 < r0_5 then
+          r0_5 = r11_5
+          r1_5 = r10_5
+          r2_5 = r7_5
+        elseif r11_5 == r0_5 and r1_5 < r10_5 then
+          r1_5 = r10_5
+          r2_5 = r7_5
+        end
+      end
+    end
+  end
+  if not r2_5 then
+    r30_0:CreateNotification({
+      Text = "Cant Afford Cars Attempting Any!",
+      Duration = 3,
+    })
+    for r6_5, r7_5 in pairs(r13_0:GetChildren()) do
+      if not r7_5:GetAttribute("Owner") then
+        local r8_5 = r7_5:GetAttribute("Price")
+        if r8_5 and r25_0.MinCarPrice < r8_5.Min and (r2_5 == nil or r1_5 < tonumber(r8_5.Max)) then
+          local r9_5 = tonumber(r8_5.Max)
+          r2_5 = r7_5
+          r1_5 = r9_5
+        end
+      end
+    end
+  end
+  if r2_5 then
+    TeleportPlayer(r2_5:GetPivot() * CFrame.new(7, 0, 0))
+    task.wait(0.5)
+    local r3_5 = r2_5:FindFirstChildWhichIsA("ClickDetector")
+    if r3_5 then
+      r10_0.CFrame = CFrame.lookAt(r10_0.CFrame.p, r2_5:GetPivot().p)
+      fireclickdetector(r3_5)
+      task.wait(1)
+      local r4_5 = r9_0.PlayerGui.HUD.Frames.Confirmation.Label.Text
+      local r5_5 = r4_5:match("for%s+(.-)%s*€")
+      local r6_5 = math.huge
+      if r5_5 then
+        r6_5 = tonumber(r5_5:gsub("%D", "")) or math.huge
+      else
+        local r7_5 = ""
+        for r11_5 in r4_5:gmatch("%d+") do
+          if #r7_5 < #r11_5 then
+            r7_5 = r11_5
+          end
+        end
+        r6_5 = tonumber(r7_5) or math.huge
+      end
+      if r6_5 <= tonumber(r17_0.Value) then
+        ConfirmUi()
+        task.wait(1)
+        if GetMyCar() ~= nil then
+          if GetMyCar():GetAttribute("ModelName") ~= nil then
+            r30_0:CreateNotification({
+              Text = "Bought " .. GetMyCar():GetAttribute("ModelName") .. " For: $" .. r6_5,
+              Duration = 3,
+            })
+            r30_0:CreateStatus("Bought " .. GetMyCar():GetAttribute("ModelName") .. " For: <font color=\"rgb(255, 7, 52)\">$" .. r6_5 .. "</font>")
+          else
+            r30_0:CreateNotification({
+              Text = "Bought Best Car For: $" .. r6_5,
+              Duration = 3,
+            })
+            r30_0:CreateStatus("Bought Best Car For: <font color=\"rgb(255, 7, 52)\">$" .. r6_5 .. "</font>")
+          end
+        else
+          r30_0:CreateNotification({
+            Text = "Failed To Buy Car!" .. r6_5,
+            Duration = 3,
+          })
+          r30_0:CreateStatus("Failed To Buy Car!")
+        end
+      else
+        firesignal(r9_0.PlayerGui.HUD.Frames.Confirmation.Cancel.Activated)
+        r30_0:CreateNotification({
+          Text = "Cant Afford Car",
+          Duration = 3,
+        })
+      end
+    end
+  else
+    r30_0:CreateNotification({
+      Text = "No Cars Found Please Wait!",
+      Duration = 3,
+    })
+  end
+  task.wait(1.5)
+  if GetMyCar() ~= nil then
+    RepairCar(GetMyCar())
+  else
+    r21_0 = false
+  end
+end
+function SnipeCar()
+  -- line: [0, 0] id: 10
+  if r19_0 ~= nil and r19_0:FindFirstChild("CarPositions") and #r9_0.PlayerData.Garage:GetChildren() == #r19_0.CarPositions:GetChildren() then
+    r30_0:CreateNotification({
+      Text = "Garage Full, Please Sell A Car!",
+      Duration = 3,
+    })
+    return 
+  end
+  r19_0 = r16_0:FindFirstChild(r9_0.PlayerData.GarageModel.Value)
+  local r0_10 = math.huge
+  local r1_10 = 0
+  local r2_10 = nil
+  for r6_10, r7_10 in pairs(r13_0:GetChildren()) do
+    if r7_10:GetAttribute("SpawnChance") and not r7_10:GetAttribute("Owner") then
+      local r8_10 = r7_10:GetAttribute("Price")
+      local r9_10 = r7_10:GetAttribute("SpawnChance")
+      if r8_10 and r9_10 and tonumber(r8_10.Max) <= tonumber(r17_0.Value) then
+        local r10_10 = tonumber(r8_10.Max)
+        local r11_10 = tonumber(r9_10)
+        if r11_10 <= r25_0.SniperCarThreshold then
+          if r11_10 < r0_10 then
+            r0_10 = r11_10
+            r1_10 = r10_10
+            r2_10 = r7_10
+          elseif r11_10 == r0_10 and r1_10 < r10_10 then
+            r1_10 = r10_10
+            r2_10 = r7_10
+          end
+        end
+      end
+    end
+  end
+  if r2_10 and r21_0 == false or r2_10 and r24_0 == true then
+    r30_0:CreateStatus("Buying Best Car")
+    r30_0:CreateNotification({
+      Text = "Buying Best Car",
+      Duration = 3,
+    })
+    print("Sniper Running")
+    r21_0 = true
+    TeleportPlayer(r2_10:GetPivot() * CFrame.new(7, 0, 0))
+    task.wait(0.5)
+    local r3_10 = r2_10:FindFirstChildWhichIsA("ClickDetector")
+    if r3_10 then
+      r10_0.CFrame = CFrame.lookAt(r10_0.CFrame.p, r2_10:GetPivot().p)
+      fireclickdetector(r3_10)
+      task.wait(1)
+      local r4_10 = r9_0.PlayerGui.HUD.Frames.Confirmation.Label.Text
+      local r5_10 = r4_10:match("for%s+(.-)%s*€")
+      local r6_10 = math.huge
+      if r5_10 then
+        r6_10 = tonumber(r5_10:gsub("%D", "")) or math.huge
+      else
+        local r7_10 = ""
+        for r11_10 in r4_10:gmatch("%d+") do
+          if #r7_10 < #r11_10 then
+            r7_10 = r11_10
+          end
+        end
+        r6_10 = tonumber(r7_10) or math.huge
+      end
+      if r6_10 <= tonumber(r17_0.Value) then
+        ConfirmUi()
+        task.wait(1)
+        if GetMyCar(true) ~= nil then
+          r30_0:CreateNotification({
+            Text = "Bought Rare Car For: $" .. r6_10,
+            Duration = 3,
+          })
+          r30_0:CreateStatus("Bought Rare Car For: <font color=\"rgb(255, 7, 52)\">$" .. r6_10 .. "</font>")
+          r19_0 = r16_0:FindFirstChild(r9_0.PlayerData.GarageModel.Value)
+          local r7_10 = GetMyCar(true)
+          local r8_10 = print
+          local r9_10 = r19_0
+          if r9_10 ~= nil then
+            r9_10 = r19_0:FindFirstChild("CarPositions") and #r9_0.PlayerData.Garage:GetChildren() < #r19_0.CarPositions:GetChildren()
+          else
+            goto label_275	-- block#37 is visited secondly
+          end
+          r8_10(r9_10)
+          if r19_0 ~= nil and r19_0:FindFirstChild("CarPositions") and #r9_0.PlayerData.Garage:GetChildren() < #r19_0.CarPositions:GetChildren() then
+            StoreCar(r7_10)
+            r0_0:CreateNotification({
+              Text = "Stored Car " .. r7_10:GetAttribute("Model"),
+              Duration = 3,
+            })
+            r7_10:Destroy()
+            r30_0:CreateStatus("Stored Car " .. r7_10:GetAttribute("Model"))
+            r21_0 = false
+            r7_10 = nil
+          else
+            r0_0:CreateNotification({
+              Text = "Not Enough Room In Garage, Selling!",
+              Duration = 3,
+            })
+            SellCar(r7_10, true)
+          end
+        else
+          r30_0:CreateNotification({
+            Text = "Failed To Buy Car!" .. r2_10:GetAttribute("ModelName"),
+            Duration = 3,
+          })
+          r30_0:CreateStatus("Failed To Buy Rare Car!")
+          r21_0 = false
+        end
+      else
+        firesignal(r9_0.PlayerGui.HUD.Frames.Confirmation.Cancel.Activated)
+        r30_0:CreateNotification({
+          Text = "Cant Afford Car",
+          Duration = 3,
+        })
+      end
+    end
+  end
+end
+function RepairCar(r0_12)
+  -- line: [0, 0] id: 12
+  if not r0_12 then
+    if GetMyCar() ~= nil then
+      r0_12 = GetMyCar()
+    else
+      r21_0 = false
+      warn("No Car Model [TeleportCar]")
+      return 
+    end
+  end
+  local r1_12, r2_12, r3_12 = GetRepairShop()
+  if r0_12 and r0_12:FindFirstChild("Misc") and r0_12:FindFirstChild("Body") and r0_12.Misc:FindFirstChild("Hood") and r2_12 then
+    local r4_12 = {}
+    local r5_12 = {}
+    local r6_12 = {}
+    r30_0:CreateStatus("Started Repairing Car")
+    local r7_12 = tick()
+    TeleportCar(r0_12, r2_12:GetPivot() * CFrame.Angles(0, math.rad(90), 0))
+    TeleportPlayer(r0_12:GetPivot() + Vector3.new(10, 0, 10))
+    task.wait(0.3)
+    fireclickdetector(r0_12.Misc.Hood.Detector.ClickDetector)
+    task.wait(1)
+    for r11_12, r12_12 in pairs(r0_12.Body.EngineBay:GetChildren()) do
+      r0_12.PartsEvent:FireServer("RemovePart", r12_12.Name)
+      r4_12[r12_12.Name] = r12_12
+      r0_0:CreateNotification({
+        Text = "Removing Part: " .. r12_12.Name,
+        Duration = 3,
+      })
+      task.wait(0.2)
+    end
+    repeat
+      task.wait(0.1)
+    until #r0_12.Body.EngineBay:GetChildren() == 0
+    local r8_12 = {
+      GrindingMachine = function(r0_16)
+        -- line: [0, 0] id: 16
+        return r0_16.Drill.Attachment.CUTS.Enabled == true
+      end,
+      BatteryCharger = function(r0_15)
+        -- line: [0, 0] id: 15
+        return r0_15.Clamps.Negative.Clamp.Primary.Particles.Enabled == true
+      end,
+      PartsWasher = function(r0_17)
+        -- line: [0, 0] id: 17
+        return r0_17.Water.Attachment["MAIN SPRAY"].Enabled == true
+      end,
+    }
+    local function r9_12()
+      -- line: [0, 0] id: 13
+      local r0_13 = next
+      local r1_13, r2_13 = GetOwnedParts()
+      for r3_13, r4_13 in r0_13, r1_13, r2_13 do
+        if r4_13:GetAttribute("RepairMachine") and 0 < r4_13:GetAttribute("Wear") then
+          for r8_13, r9_13 in next, r3_12, nil do
+            local r10_13 = false
+            local function r11_13()
+              -- line: [0, 0] id: 14
+              r10_13 = true
+            end
+            if r9_13.Name == r4_13:GetAttribute("RepairMachine") and not r5_12[r4_13] then
+              local r12_13 = r8_12[r9_13.Name]
+              if not r12_13 or not r12_13(r9_13) then
+                local r13_13 = 0
+                local r14_13 = false
+                while true do
+                  r4_13:PivotTo(r9_13:FindFirstChild("Detector"):GetPivot() + Vector3.new(0, 1, 0))
+                  task.wait(0.2)
+                  if r4_13:FindFirstChildOfClass("Part") then
+                    local r15_13 = r4_13:FindFirstChildOfClass("Part")
+                    r15_13 = r15_13:FindFirstChildOfClass("BodyVelocity")
+                    if r15_13 then
+                      r15_13 = r4_13:FindFirstChildOfClass("Part")
+                      r15_13:FindFirstChildOfClass("BodyVelocity"):Destroy()
+                    end
+                  end
+                  local r15_13 = r9_13:FindFirstChild("Button")
+                  if r15_13 then
+                    r15_13 = r9_13.Button:FindFirstChild("ClickDetector")
+                    if r15_13 then
+                      fireclickdetector(r9_13.Button.ClickDetector)
+                    end
+                  else
+                    r15_13 = r9_13:FindFirstChild("Faucet")
+                    if r15_13 then
+                      r15_13 = r9_13.Faucet:FindFirstChild("ClickDetector")
+                      if r15_13 then
+                        fireclickdetector(r9_13.Faucet.ClickDetector)
+                      end
+                    end
+                  end
+                  task.wait(0.4)
+                  r15_13 = Instance.new("BodyVelocity", r4_13:FindFirstChildOfClass("Part"))
+                  r15_13.Velocity = Vector3.new(0, 0, 0)
+                  r15_13.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+                  r15_13.P = math.huge
+                  if r12_13 and r12_13(r9_13) then
+                    r14_13 = true
+                  end
+                  r13_13 = r13_13 + 1
+                  if not r14_13 and 5 > r13_13 then
+                    goto label_155	-- block#22 is visited secondly
+                  else
+                    break
+                  end
+                end
+                if r14_13 then
+                  r0_0:CreateNotification({
+                    Text = "Repairing Part: " .. r4_13.Name,
+                    Duration = 3,
+                  })
+                  r5_12[r4_13] = r9_13
+                end
+                r11_13()
+              end
+            end
+            if r10_13 then
+              -- close: r5_13
+              break
+            else
+              -- close: r10_13
+            end
+          end
+        end
+      end
+    end
+    r9_12()
+    r0_0:CreateNotification({
+      Text = "Waiting For Repairs",
+      Duration = 8,
+    })
+    TeleportPlayer(r0_12:GetPivot() + Vector3.new(8, 0, 8))
+    local r10_12 = tick()
+    while true do
+      task.wait(1)
+      local r11_12 = {}
+      local r21_12 = nil	-- notice: implicit variable refs by block#[20, 40]
+      for r15_12, r16_12 in pairs(r5_12) do
+        if not r15_12 or not r15_12.Parent then
+          r11_12[r15_12] = true
+          local r17_12 = r0_0
+          local r19_12 = {}
+          local r20_12 = "Part Missing "
+          if r15_12 then
+            r21_12 = r15_12.Name
+            if not r21_12 then
+              ::label_184::
+              r21_12 = "Unknown"
+            end
+          else
+            goto label_184	-- block#19 is visited secondly
+          end
+          r19_12.Text = r20_12 .. r21_12
+          r19_12.Duration = 3
+          r17_12:CreateNotification(r19_12)
+        elseif r15_12:GetAttribute("Wear") <= 0 then
+          r11_12[r15_12] = true
+          local r19_12 = {}
+          r21_12 = r15_12.Name
+          r19_12.Text = "Repaired Part " .. r21_12
+          r19_12.Duration = 3
+          r0_0:CreateNotification(r19_12)
+        else
+          local r17_12 = r8_12[r16_12.Name]
+          if r17_12 and not r17_12(r16_12) then
+            r11_12[r15_12] = true
+            local r20_12 = {}
+            r21_12 = "Repair stuck for " .. r15_12.Name .. ", retrying"
+            r20_12.Text = r21_12
+            r20_12.Duration = 3
+            r0_0:CreateNotification(r20_12)
+          end
+        end
+      end
+      for r15_12 in pairs(r11_12) do
+        r5_12[r15_12] = nil
+      end
+      r9_12()
+      if next(r5_12) and r25_0.Timeout > tick() - r10_12 then
+        goto label_242	-- block#31 is visited secondly
+      else
+        break
+      end
+    end
+    r10_12 = tick()
+    if next(r5_12) then
+      r0_0:CreateNotification({
+        Text = "Some Parts Were Missed! Retrying...",
+        Duration = 3,
+      })
+      r9_12()
+      while true do
+        task.wait(1)
+        local r11_12 = {}
+        for r15_12, r16_12 in pairs(r5_12) do
+          if not r15_12 or not r15_12.Parent then
+            r11_12[r15_12] = true
+            local r17_12 = r0_0
+            local r19_12 = {}
+            local r20_12 = "Part Missing "
+            if r15_12 then
+              local r21_12 = r15_12.Name
+              if not r21_12 then
+                ::label_289::
+                r21_12 = "Unknown"
+              end
+            else
+              goto label_289	-- block#39 is visited secondly
+            end
+            r19_12.Text = r20_12 .. r21_12
+            r19_12.Duration = 3
+            r17_12:CreateNotification(r19_12)
+          elseif r15_12:GetAttribute("Wear") <= 0 then
+            r11_12[r15_12] = true
+            local r19_12 = {}
+            local r21_12 = r15_12.Name
+            r19_12.Text = "Repaired Part " .. r21_12
+            r19_12.Duration = 3
+            r0_0:CreateNotification(r19_12)
+          else
+            local r17_12 = r8_12[r16_12.Name]
+            if r17_12 and not r17_12(r16_12) then
+              r11_12[r15_12] = true
+              local r20_12 = {}
+              local r21_12 = "Repair stuck for " .. r15_12.Name .. ", retrying"
+              r20_12.Text = r21_12
+              r20_12.Duration = 3
+              r0_0:CreateNotification(r20_12)
+            end
+          end
+        end
+        for r15_12 in pairs(r11_12) do
+          r5_12[r15_12] = nil
+        end
+        r9_12()
+        if next(r5_12) and r25_0.Timeout - 7 > tick() - r10_12 then
+          goto label_347	-- block#51 is visited secondly
+        else
+          break
+        end
+      end
+    end
+    r5_12 = {}
+    r30_0:CreateStatus("Waiting To Finish Repairs")
+    local r11_12 = {
+      "Sparkplugs",
+      "Injectors",
+      "TimingBelt"
+    }
+    local r12_12 = {
+      "EngineBlock",
+      "CylinderHead",
+      "AirIntake",
+      "ExhaustManifold",
+      "Radiator",
+      "Sparkplugs",
+      "Battery",
+      "Injectors",
+      "TimingBelt",
+      "Transmission"
+    }
+    local r13_12 = tick()
+    TeleportPlayer(r0_12:GetPivot() + Vector3.new(8, 0, 8))
+    r0_0:CreateNotification({
+      Text = "Starting To Install Parts",
+      Duration = 3,
+    })
+    for r17_12, r18_12 in ipairs(r12_12) do
+      local r19_12 = r4_12[r18_12]
+      if r19_12 then
+        r19_12 = r0_12.Body.EngineBay:FindFirstChild(r18_12)
+        if not r19_12 then
+          r19_12 = r4_12[r18_12]
+          if r19_12 then
+            local r20_12 = r19_12.Parent
+            if not r20_12 then
+              ::label_418::
+              local r22_12 = {
+                Text = "Part Missing: " .. r18_12,
+                Duration = 3,
+              }
+              r0_0:CreateNotification(r22_12)
+            else
+              r20_12 = table.find(r11_12, r18_12)
+              if r20_12 then
+                r20_12 = r19_12:GetAttribute("Wear")
+                if r20_12 > 0 then
+                  r20_12 = r19_12:GetAttribute("Category")
+                  if r20_12 then
+                    r20_12 = r15_0:FindFirstChild(r19_12:GetAttribute("Category"))
+                    if r20_12 then
+                      r20_12 = r15_0:FindFirstChild(r19_12:GetAttribute("Category"))
+                      r20_12 = r20_12:FindFirstChild(r19_12.Name)
+                      if r20_12 then
+                        r20_12 = tonumber(r17_0.Value)
+                        local r21_12 = tonumber(r15_0[r19_12:GetAttribute("Category")][r19_12.Name]:GetAttribute("Price"))
+                        if r21_12 <= r20_12 then
+                          r20_12 = r15_0[r19_12:GetAttribute("Category")][r19_12.Name]:FindFirstChild("ClickDetector")
+                          if r20_12 then
+                            r20_12 = r11_0:GetPivot()
+                            r0_0:CreateNotification({
+                              Text = "Buying New Part " .. r18_12,
+                              Duration = 3,
+                            })
+                            TeleportPlayer(r15_0[r19_12:GetAttribute("Category")][r19_12.Name]:GetPivot())
+                            fireclickdetector(r15_0[r19_12:GetAttribute("Category")][r19_12.Name].ClickDetector)
+                            r6_0:WaitForChild("Events"):WaitForChild("PartsEvent"):FireServer("DeletePart", r19_12)
+                            ConfirmUi()
+                            r21_12 = pairs
+                            local r22_12 = GetOwnedParts
+                            for r24_12, r25_12 in r21_12(r22_12()) do
+                              if r25_12.Name == r18_12 then
+                                r19_12 = r25_12
+                              end
+                            end
+                            TeleportPlayer(r20_12)
+                          end
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+              r0_12.PartsEvent:FireServer("ReapplyPart", r19_12)
+              task.wait(0.3)
+              r20_12 = r0_12.Body.EngineBay:FindFirstChild(r18_12)
+              if not r20_12 then
+                while true do
+                  task.wait(0.2)
+                  r0_12.PartsEvent:FireServer("ReapplyPart", r19_12)
+                  r20_12 = r0_12.Body.EngineBay:FindFirstChild(r18_12)
+                  if not r20_12 then
+                    r20_12 = tick() - r13_12
+                    local r21_12 = r25_0.Timeout - 10
+                    if r21_12 <= r20_12 then
+                      break
+                    end
+                  else
+                    break
+                  end
+                end
+                r20_12 = r0_12.Body.EngineBay:FindFirstChild(r18_12)
+                if r20_12 then
+                  local r22_12 = {}
+                  r22_12.Text = "Installed Part: " .. r18_12
+                  r22_12.Duration = 3
+                  r0_0:CreateNotification(r22_12)
+                else
+                  local r22_12 = {}
+                  r22_12.Text = "Failed to Install Part: " .. r18_12
+                  r22_12.Duration = 3
+                  r0_0:CreateNotification(r22_12)
+                end
+              else
+                local r22_12 = {}
+                r22_12.Text = "Installed Part: " .. r18_12
+                r22_12.Duration = 3
+                r0_0:CreateNotification(r22_12)
+              end
+              task.wait(0.3)
+            end
+          else
+            goto label_418	-- block#58 is visited secondly
+          end
+        end
+      end
+    end
+    fireclickdetector(r0_12.Misc.Hood.Detector.ClickDetector)
+    task.wait(1)
+    if r0_12:FindFirstChild("Values") then
+      local r14_12 = string.split(string.sub(r0_12.Values.PaintColor.Value, 6), ", ")
+      r6_0.Events.Vehicles.SetPaint:FireServer(r0_12, Color3.new(tonumber(r14_12[1]), tonumber(r14_12[2]), tonumber(r14_12[3])))
+      r0_0:CreateNotification({
+        Text = "Painted Car",
+        Duration = 3,
+      })
+    end
+    r30_0:CreateStatus("Finished Repairing Car Took <font color=\"rgb(138, 144, 255)\">" .. math.round(tick() - r7_12) .. "s</font>")
+    SellCar(r0_12, false)
+    -- close: r4_12
+  else
+    r0_0:CreateNotification({
+      Text = "No Car Fount Or Car Is Missing Components!",
+      Duration = 3,
+    })
+  end
+end
+function StoreCar(r0_19)
+  -- line: [0, 0] id: 19
+  assert(r0_19, "Car Model Not Provided [StoreCar]")
+  r19_0 = r16_0:FindFirstChild(r9_0.PlayerData.GarageModel.Value)
+  if r19_0 ~= nil and r19_0:FindFirstChild("CarPositions") and #r9_0.PlayerData.Garage:GetChildren() < #r19_0.CarPositions:GetChildren() then
+    TeleportCar(GetMyCar(), r19_0.EnterDetector:GetPivot())
+    r11_0:PivotTo(r19_0.DoorDetector:GetPivot())
+    task.wait(1)
+    r0_19.DriveSeat:Sit(r11_0.Humanoid)
+    r0_0:CreateNotification({
+      Text = "Stored Car " .. r0_19:GetAttribute("Model"),
+      Duration = 3,
+    })
+    r0_19:Destroy()
+    r30_0:CreateStatus("Stored Car " .. r0_19:GetAttribute("Model"))
+    r21_0 = false
+  else
+    r0_0:CreateNotification({
+      Text = "Not Enough Room In Garage, Selling!",
+      Duration = 3,
+    })
+    SellCar(r0_19, true)
+  end
+end
+function SellCar(r0_7, r1_7)
+  -- line: [0, 0] id: 7
+  assert(r0_7, "No Car Model [SellCar]")
+  if r1_7 == false and r25_0.StoreRareCars == true and r0_7:GetAttribute("SpawnChance") <= r25_0.RareCarThreshold then
+    r0_0:CreateNotification({
+      Text = "Storing Car!",
+      Duration = 3,
+    })
+    StoreCar(r0_7)
+    return 
+  end
+  local r2_7 = tonumber(r17_0.Value)
+  r0_0:CreateNotification({
+    Text = "Selling Car!",
+    Duration = 3,
+  })
+  TeleportCar(r0_7, r12_0.SellCar:GetPivot() + Vector3.new(12, 8, 12))
+  r11_0:PivotTo(r12_0.SellCar:GetPivot() + Vector3.new(2, 5, 2))
+  task.wait(0.2)
+  if r12_0.SellCar:FindFirstChild("Prompt") then
+    fireproximityprompt(r12_0.SellCar.Prompt.ProximityPrompt)
+  end
+  r11_0:PivotTo(r12_0.SellCar:GetPivot() + Vector3.new(2, 3, 2))
+  r10_0.CFrame = CFrame.lookAt(r10_0.CFrame.p, r12_0.SellCar:GetPivot().p)
+  task.wait(0.2)
+  fireproximityprompt(r12_0.SellCar.Prompt.ProximityPrompt)
+  while true do
+    task.wait(1)
+    r24_0 = true
+    r11_0.Humanoid.Sit = false
+    r11_0:PivotTo(CFrame.new(-1907, 4.03200388, -783))
+    r10_0.CFrame = CFrame.lookAt(r10_0.CFrame.p, r12_0.SellCar:GetPivot().p)
+    task.wait(0.2)
+    fireproximityprompt(r12_0.SellCar.Prompt.ProximityPrompt)
+    if GetMyCar() ~= nil then
+      local r3_7 = r25_0.FarmingEnabled
+      if r3_7 ~= false then
+        r3_7 = r9_0.PlayerGui:FindFirstChild("HUD")
+        if r3_7 then
+          r3_7 = r9_0.PlayerGui.HUD:FindFirstChild("Frames")
+          if r3_7 then
+            r3_7 = r9_0.PlayerGui.HUD.Frames:FindFirstChild("Confirmation")
+            if r3_7 then
+              r3_7 = r9_0.PlayerGui.HUD.Frames.Confirmation.Visible
+              if r3_7 == true then
+                break
+              end
+            end
+          end
+        end
+      else
+        break
+      end
+    else
+      break
+    end
+  end
+  if r25_0.FarmingEnabled == false then
+    for r6_7, r7_7 in pairs(r11_0.HumanoidRootPart:GetChildren()) do
+      if r7_7:IsA("BodyVelocity") then
+        r7_7:Destroy()
+      end
+    end
+    r21_0 = false
+    return 
+  end
+  if GetMyCar() == nil then
+    for r6_7, r7_7 in pairs(r11_0.HumanoidRootPart:GetChildren()) do
+      if r7_7:IsA("BodyVelocity") then
+        r7_7:Destroy()
+      end
+    end
+    r21_0 = false
+    return 
+  end
+  r2_7 = tonumber(r17_0.Value)
+  r24_0 = false
+  ConfirmUi()
+  r30_0:CreateStatus("Sold Car For <font color=\"rgb(0, 255, 64)\">$" .. math.floor(tonumber(r17_0.Value - r2_7)) .. "</font>")
+  for r6_7, r7_7 in pairs(r11_0.HumanoidRootPart:GetChildren()) do
+    if r7_7:IsA("BodyVelocity") then
+      r7_7:Destroy()
+    end
+  end
+  r21_0 = false
+end
+function FormatTime(r0_6)
+  -- line: [0, 0] id: 6
+  return string.format("%02d:%02d:%02d", math.floor(r0_6 / 3600), math.floor(r0_6 % 3600 / 60), math.floor(r0_6 % 60))
+end
+function DoAutoDrive()
+  -- line: [0, 0] id: 1
+  if r21_0 == true then
+    return 
+  end
+  local r0_1 = GetMyCar()
+  if r0_1 == nil or r11_0 == nil or not r11_0:FindFirstChild("Humanoid") then
+    r30_0:CreateNotification({
+      Text = "Please Get A Car Out!",
+      Duration = 3,
+    })
+    return 
+  end
+  r21_0 = true
+  local r1_1 = r18_0.Value
+  r0_1:FindFirstChild("DriveSeat"):Sit(r11_0.Humanoid)
+  local r2_1 = Instance.new("BodyVelocity", r0_1:FindFirstChild("Body"):FindFirstChild("Engine"))
+  r2_1.Velocity = Vector3.new(0, 0, 0)
+  r2_1.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+  r2_1.P = math.huge
+  r0_1:PivotTo(CFrame.new(-2135, 4, 2827))
+  local r4_1 = TweenInfo.new(((r0_1:GetPivot().p - Vector3.new(-10121, 4, 2669))).Magnitude / r25_0.KmFarmSpeed, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+  local r5_1 = Instance.new("CFrameValue")
+  r5_1.Value = r0_1:GetPivot()
+  r5_1.Changed:Connect(function()
+    -- line: [0, 0] id: 2
+    r0_1:PivotTo(r5_1.Value)
+  end)
+  local r6_1 = r5_0:Create(r5_1, r4_1, {
+    Value = CFrame.new(-10121, 4, 2669),
+  })
+  r6_1:Play()
+  r6_1.Completed:Wait()
+  r2_1:Destroy()
+  r21_0 = false
+  r30_0:CreateStatus("Gained <font color=\"rgb(138, 144, 255)\">" .. string.sub(tonumber(r18_0.Value - r1_1), 1, 3) .. "km</font>")
+  if r25_0.KmFarm == true and not r21_0 then
+    DoAutoDrive()
+  end
+end
+function OpenAuctions()
+  -- line: [0, 0] id: 8
+  if tonumber(r17_0.Value) >= 80000 then
+    for r3_8, r4_8 in pairs(workspace.Utils.Auctions.Garages:GetChildren()) do
+      if tonumber(r17_0.Value) >= 80000 then
+        TeleportPlayer(r4_8.OpenPos:GetPivot() + Vector3.new(0, 8, 0))
+        if r4_8.RootPos:FindFirstChild("Attachment") then
+          local r5_8 = nil
+          for r9_8, r10_8 in pairs(r4_8.RootPos:GetChildren()) do
+            if r10_8:FindFirstChild("MoneyBuy") then
+              r5_8 = r10_8.MoneyBuy
+            end
+          end
+          if r5_8 ~= nil then
+            fireproximityprompt(r5_8)
+          end
+          task.wait(0.1)
+        end
+      end
+    end
+  else
+    for r3_8, r4_8 in pairs(r11_0.HumanoidRootPart:GetChildren()) do
+      if r4_8:IsA("BodyVelocity") then
+        r4_8:Destroy()
+      end
+    end
+  end
+end
+r30_0:CreateNotification({
+  Text = "Script Loaded In " .. math.floor(tick() - r22_0) .. "s",
+  Duration = 3,
+})
+game:GetService("RunService").Heartbeat:Connect(function()
+  -- line: [0, 0] id: 26
+  r29_0:UpdateWatermark("Fix It Up | Money Earned: " .. math.floor(tonumber(r17_0.Value) - r20_0) .. " | Elapsed Time: " .. FormatTime(tick() - r22_0))
+end)
+task.spawn(function()
+  -- line: [0, 0] id: 21
+  -- notice: unreachable block#2
+  r30_0:CreateNotification({
+    Text = "Anti Afk Started",
+    Duration = 3,
+  })
+  while true do
+    task.wait(10)
+    r8_0:CaptureController()
+    r8_0:ClickButton2(Vector2.new())
+  end
+  goto label_20	-- block#2 is visited secondly
+end)
+task.spawn(function()
+  -- line: [0, 0] id: 18
+  -- notice: unreachable block#11
+  while true do
+    task.wait()
+    if r25_0.Sniper == true then
+      SnipeCar()
+    end
+    local r0_18 = r25_0.FarmingEnabled
+    if r0_18 == true then
+      r0_18 = r21_0
+      if not r0_18 then
+        BuyBestCar()
+      end
+    end
+    r0_18 = r25_0.KmFarm
+    if r0_18 == true then
+      r0_18 = r21_0
+      if not r0_18 then
+        DoAutoDrive()
+      end
+    end
+    r0_18 = r25_0.AutoAuction
+    if r0_18 == true then
+      r0_18 = r21_0
+      if not r0_18 then
+        OpenAuctions()
+      end
+    end
+  end
+end)
+r23_0 = false
